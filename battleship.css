@@ -1,0 +1,26 @@
+body {
+  font-size: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+main {
+    margin: auto;
+}
+table {
+  border-collapse: collapse;
+}
+td {
+  border: 3px solid black;
+  padding: 30px;
+}
+.hit {
+    background-color: red;
+}
+
+.miss {
+    background-color: blue;
+}
+
+footer {
+    font-size: 50%;
+    text-align: center;
+}
