@@ -1,6 +1,16 @@
+* {
+
+}
 body {
   font-size: 30px;
   font-family: Arial, Helvetica, sans-serif;
+  background-image: url("images/ship2.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 1000px 1000px;
+  background-color: #414141;
+  color: #414141;
+
 }
 #container {
     height: 100%;
@@ -10,27 +20,37 @@ body {
     flex-direction: column;
     align-items: center;
 }
+header {
+    font-family: 'Share Tech Mono', monospace;
+    color: #00E640;
+}
 main {
     margin: auto;
+    font-family: 'Share Tech Mono', monospace;
+}
+#torpedoCount{
+    text-align: center;
 }
 table {
   border-collapse: collapse;
 }
+th {
+    padding: 5px;
+}
 td {
-  border: 3px solid black;
+  border: 3px solid #414141;
   padding: 30px;
+  background-color: silver;
+  opacity: 0.5;
 }
 .hit {
-    background-color: red;
+    /*image: url("images/explosion.png");*/
+    background-color: #F22613;
 }
 
 .miss {
     background-color: blue;
 }
-.reveal {
-    background-color: #333333;
-}
-
 footer {
     font-size: 50%;
     text-align: center;
