@@ -43,7 +43,7 @@ $(document).ready(function(){
 
 
     //clicking fires torpedoes and adds to torpedo counter
-    $("td").on("click", function() {
+    $("td").on("Click", function() {
             if (hits <= 5 || torpedoes > 0) {
             var thisSq = $(this).attr("id");
             console.log(thisSq);
